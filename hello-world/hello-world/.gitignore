@@ -7,7 +7,6 @@
 
 # dependencies
 /node_modules
-/functions/node_modules
 
 # IDEs and editors
 /.idea
@@ -31,18 +30,13 @@
 /coverage
 /libpeerconnection.log
 npm-debug.log
-yarn-error.log
-firebase-debug.log
-firestore-debug.log
 testem.log
 /typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
 
 # System Files
 .DS_Store
 Thumbs.db
-firebase-debug.log
-database-debug.log
-firestore-debug.log
-/.vscode/
-.firebase/*
-.angulardoc.json
